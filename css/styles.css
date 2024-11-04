@@ -38,7 +38,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-header {
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
 .section {
@@ -92,6 +92,7 @@ header {
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 .menu {
   display: flex;
@@ -99,8 +100,7 @@ header {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
   margin-right: 332px;
 }
 
@@ -113,6 +113,8 @@ header {
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   width: calc((100% - 80px) / 3);
 }
@@ -244,8 +246,7 @@ button:focus {
   column-gap: 24px;
   text-align: left;
 }
-.portfolio-list img {
-}
+
 .portfolio-item {
   width: calc((100% - 48px) / 3);
 }
