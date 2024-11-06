@@ -84,12 +84,8 @@ img {
   justify-content: flex-end;
   flex-direction: row;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
-.link {
-  width: calc((100% - 40px) / 2);
-}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -100,8 +96,6 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-
-  margin-right: 332px;
 }
 
 .logo-studio {
@@ -115,8 +109,7 @@ img {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
-
-  width: calc((100% - 80px) / 3);
+  display: block;
 }
 
 .menu-nav:hover,
@@ -134,7 +127,6 @@ img {
   align-items: center;
 
   flex-direction: column;
-  gap: 48px;
 }
 .title {
   font-weight: 700;
@@ -166,8 +158,8 @@ img {
   margin-bottom: 72px;
 }
 address {
-  display: flex;
   font-style: normal;
+  margin-left: auto;
 }
 .link {
   font-size: 16px;
@@ -194,10 +186,6 @@ address a:focus {
   height: 56px;
   border: none;
   border-radius: 4px;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 button:hover,
 button:focus {
@@ -213,12 +201,12 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
+
   margin-bottom: 8px;
 }
 .list-section {
   background-color: #ffffff;
-  padding-bottom: 32px;
+
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
 }
@@ -228,7 +216,6 @@ button:focus {
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 .team {
   background-color: #f4f4fd;
